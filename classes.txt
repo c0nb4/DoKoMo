@@ -1,0 +1,28 @@
+player
+- player_name : Str 
+- doko_name : Str 
+- picture : link 
+- cash_payed : float 
+- total_points : int 
+- rounds_played : int 
+
+game:  
+- list_of_players : list
+- Team_1 : [player_1, player_2]
+- Team_2 : [player_3, player_4]
+- is_solo : boolean 
+- Points_Team_1 : int 
+- Points_Team_2 : int 
+- Augen_team_1 : int
+- Augen_team_2 : int 
+
+abend: 
+- datum : date 
+- spieler : list[player]
+- Ergebnisse: 
+
+Ergebnisse_Abend: 
+- list_of_players: player 
+- punkte_spieler 
+
+# [ Front End ]
